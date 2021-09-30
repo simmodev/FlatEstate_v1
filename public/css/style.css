@@ -1,0 +1,161 @@
+body {
+  margin-top: 75px;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-nav .navbar-brand {
+  color: #efefef;
+}
+
+.navbar-nav .nav-item {
+  font-size: 1.3rem;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+}
+
+.navbar-nav .nav-item a,
+.navbar-nav .nav-item button {
+  color: #efefef;
+}
+
+.nav-item:hover {
+  background: #f7f7f7;
+}
+
+.nav-item:hover {
+  background: #56ace3;
+}
+
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.ellipsis2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+#estate-page .product-imgs {
+  width: 100%;
+}
+
+#estate-page img {
+  width: 100%;
+  display: block;
+}
+
+#estate-page .img-display {
+  overflow: hidden;
+}
+
+#estate-page .img-showcase {
+  display: flex;
+  width: 100%;
+  transition: all 0.5s ease;
+}
+
+#estate-page .img-showcase img {
+  min-width: 100%;
+}
+
+#estate-page .img-select {
+  display: flex;
+}
+
+#estate-page .img-item {
+  margin: 0.3rem;
+}
+
+#estate-page .img-item:hover {
+  opacity: 0.8;
+}
+
+#home-section {
+  background: url(/images/home.jpg?f19c6944505494bb552f096cc4552998) no-repeat center;
+  position: page;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  margin-top: -75px;
+}
+
+#home-section h1 {
+  display: inline-block;
+  margin-top: 110px;
+}
+
+#explore-section p {
+  font-size: 18px;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1200px) {
+  #explore-title {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #home-title {
+    font-size: 52x;
+  }
+}
+
+.no-link {
+  pointer-events: none;
+  cursor: text;
+  text-decoration: none;
+  color: black;
+}
+
+#footer {
+  background: url(/images/footer.jpg?39271b50fbc4fd0dea882a8c16d7c033) no-repeat center center;
+  position: page;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+
+.image_container {
+  height: 70px;
+  width: 100px;
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.image_container img {
+  height: 100%;
+  width: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.image_container span {
+  top: -6px;
+  right: 8px;
+  color: red;
+  font-size: 28px;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+
